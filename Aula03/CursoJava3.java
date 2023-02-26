@@ -5,6 +5,10 @@ public class CursoJava3{
         int faltas=10;
         int maxFaltas=5;
         int media=60;
+        String res;
+
+        res=(nota >= media ? "Aprovado" : "Reprovado");
+        System.out.println("Resultado: " + res);
 
         if(nota >= media && faltas <= maxFaltas){
         System.out.println("Aprovado");
